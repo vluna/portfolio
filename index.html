@@ -1,114 +1,204 @@
-<!doctype html>
-<html>
-    <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-72676859-1"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Begin: Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-72676859-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-72676859-1');
+    </script>
+    <!-- End: Global site tag (gtag.js) - Google Analytics -->
 
-          gtag('config', 'UA-72676859-1');
-        </script>
+    <title> Victor Luna | Portfolio</title>
 
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="My name is Victor Luna and I am a full-stack developer currently based in Bathurst, NB. I have a B.Sc. in Interactive Arts &amp; Technology (SIAT). 'What is that?' you may ask.">
+    <!-- Begin: Metadata -->
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <meta name="keywords" content="victor, luna, victor luna, portfolio, ux, ui, designer, developer, web, bathurst, new brunswick, chaleur, region, toronto, ontario, software, developer, software developer, software, engineer, software engineer, web developer, sfu, simon fraser university, student, IAT, interactive, arts, technology, interactive arts and technology, computing science, graduate, recent graduate, recent grad, grad">
-        <title> Victor Luna | Portfolio</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="copyright" content="Victor Luna's Portfolio">
+    <meta name="author" content="Victor Luna">
+    <meta name="description" content="My name is Victor Luna and I am a full stack developer currently based in Toronto, ON. I have a B.Sc. in Interactive Arts &amp; Technology (SIAT). 'What is that?' you may ask.">
+    <meta name="keywords" content="victor, luna, victor luna, portfolio, ux, ui, designer, developer, web, toronto, ontario, software, developer, software developer, engineer, software engineer, web developer, sfu, simon fraser university, computing science, senior web developer">
+    <link itemprop="image" content="https://vluna.github.io/portfolio/img/og.jpg">
 
-        <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <!-- OG -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en">
+    <meta property="og:title" content=" Victor Luna's Portfolio">
+    <meta property="og:image" content="https://vluna.github.io/portfolio/img/og.jpg">
+    <meta name="og:description" content="My name is Victor Luna and I am a full stack developer currently based in Toronto, ON. I have a B.Sc. in Interactive Arts &amp; Technology (SIAT). 'What is that?' you may ask."/>
+    <meta property="og:site_name" content="Victor Luna's Portfolio">
+    <meta property="og:url" content="https://vluna.github.io/portfolio/">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
 
-        <link rel="manifest" href="/manifest.json">
-        <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-        <meta name="theme-color" content="#ffffff">
+    <!-- Twitter Tags -->
+    <meta property="twitter:card" content="summary_large_image">
+    <!-- End: Metadata -->
 
-        <noscript>
-            <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type='text/css'>
-            <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type='text/css'>
-            <link rel="stylesheet" href="css/grid.css">
-            <link rel="stylesheet" href="css/main.css">
-            
-            <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'>
-            <link href="https://fonts.googleapis.com/css?family=Rubik:300,500" rel="stylesheet">
-            <link href="https://fonts.googleapis.com/css?family=Muli:700" rel="stylesheet">
-        </noscript>
-        <style type="text/css">
-            #preloader{position:fixed;top:0;left:0;right:0;bottom:0;background-color:#fff;z-index:99999;height:100%}.sk-cube-grid{width:40px;height:40px;position:absolute;top:calc(50% - 25px);left:calc(50% - 25px)}.sk-cube-grid .sk-cube{width:33%;height:33%;background-color:#333;float:left;-webkit-animation:sk-cubeGridScaleDelay 1.3s infinite ease-in-out;animation:sk-cubeGridScaleDelay 1.3s infinite ease-in-out}.sk-cube-grid .sk-cube1{background:#14325C;-webkit-animation-delay:.2s;animation-delay:.2s}.sk-cube-grid .sk-cube2{background:#5398D9;-webkit-animation-delay:.3s;animation-delay:.3s}.sk-cube-grid .sk-cube3{background:#F4E3B1;-webkit-animation-delay:.4s;animation-delay:.4s}.sk-cube-grid .sk-cube4{background:#D96B0C;-webkit-animation-delay:.1s;animation-delay:.1s}.sk-cube-grid .sk-cube5{background:#A53A3B;-webkit-animation-delay:.2s;animation-delay:.2s}.sk-cube-grid .sk-cube6{background:#D75B66;-webkit-animation-delay:.3s;animation-delay:.3s}.sk-cube-grid .sk-cube7{background:#118C8B;-webkit-animation-delay:0s;animation-delay:0s}.sk-cube-grid .sk-cube8{background:#F1BA48;-webkit-animation-delay:.1s;animation-delay:.1s}.sk-cube-grid .sk-cube9{background:#BD8A44;-webkit-animation-delay:.2s;animation-delay:.2s}@-webkit-keyframes sk-cubeGridScaleDelay{0%,100%,70%{-webkit-transform:scale3D(1,1,1);transform:scale3D(1,1,1)}35%{-webkit-transform:scale3D(0,0,1);transform:scale3D(0,0,1)}}@keyframes sk-cubeGridScaleDelay{0%,100%,70%{-webkit-transform:scale3D(1,1,1);transform:scale3D(1,1,1)}35%{-webkit-transform:scale3D(0,0,1);transform:scale3D(0,0,1)}}
-        </style>
 
-    </head>
+    <!-- Begin: Favicon -->
+    <link rel="shortcut icon" type="image/png" href="img/favicon/favicon.ico" sizes="16x16"/>
+    <link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16"/>
+    <link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32"/>
+    <link rel="icon" type="image/png" href="img/favicon/favicon-96x96.png" sizes="96x96"/>
+    <!-- Android support -->
+    <link rel="android-icon" type="image/png" href="img/favicon/android-icon-36x36.png" sizes="36x36"/>
+    <link rel="android-icon" type="image/png" href="img/favicon/android-icon-48x48.png" sizes="48x48"/>
+    <link rel="android-icon" type="image/png" href="img/favicon/android-icon-72x72.png" sizes="72x72"/>
+    <link rel="android-icon" type="image/png" href="img/favicon/android-icon-96x96.png" sizes="96x96"/>
+    <link rel="android-icon" type="image/png" href="img/favicon/android-icon-144x144.png" sizes="144x144"/>
+    <link rel="android-icon" type="image/png" href="img/favicon/android-icon-192x192.png" sizes="192x192"/>
+    <!-- iOS support -->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <!-- End: Favicon -->
+
+    <!-- Begin: Stylesheets -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type='text/css'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type='text/css'>
+    <link rel="stylesheet" href="./css/main.min.css">
+    <!-- End: Stylesheets -->
+
+    <!-- Begin: Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:700" rel="stylesheet">
+    <!-- End: Google Fonts -->
+  </head>
     
-    <body data-spy="scroll">
-        <div id="preloader">
-            <div class="sk-cube-grid">
-                <div class="sk-cube sk-cube1"></div>
-                <div class="sk-cube sk-cube2"></div>
-                <div class="sk-cube sk-cube3"></div>
-                <div class="sk-cube sk-cube4"></div>
-                <div class="sk-cube sk-cube5"></div>
-                <div class="sk-cube sk-cube6"></div>
-                <div class="sk-cube sk-cube7"></div>
-                <div class="sk-cube sk-cube8"></div>
-                <div class="sk-cube sk-cube9"></div>
-            </div>
+  <body data-spy="scroll">
+    <!-- Begin: Header -->
+    <header>
+      <!-- Begin: Preloader -->
+      <div id="preloader">
+        <div class="sk-cube-grid">
+          <div class="sk-cube sk-cube1"></div>
+          <div class="sk-cube sk-cube2"></div>
+          <div class="sk-cube sk-cube3"></div>
+          <div class="sk-cube sk-cube4"></div>
+          <div class="sk-cube sk-cube5"></div>
+          <div class="sk-cube sk-cube6"></div>
+          <div class="sk-cube sk-cube7"></div>
+          <div class="sk-cube sk-cube8"></div>
+          <div class="sk-cube sk-cube9"></div>
         </div>
+      </div>
+      <!-- End: Preloader -->
 
-        <div id="nav">
-            <button class="nav-button" id="nav-button"><span class="nav-open-menu">+</span></button>
-            <div class="nav-wrapper" id="nav-wrapper">
-                <ul>
-                    <li><a class="page-scroll" href="#contact-section"><span class="fa fa-envelope"></span></a></li>
-                    <li><a class="page-scroll" href="#project-section"><span class="fa fa-briefcase"></span></a></li>
-                    <li><a class="page-scroll" href="#about-section"><span class="fa fa-rocket"></span></a></li>
-                    <li><a class="page-scroll" href="#skills-section"><span class="fa fa-pencil"></span></a></li>
-                    <li><a class="page-scroll" href="#home-section"><span class="fa fa-home"></span></a></li>
-                </ul>
-            </div>
+      <!-- Begin: Nav -->
+      <div id="nav">
+        <button class="nav-button" id="nav-button" title="Menu"><span class="nav-open-menu">+</span></button>
+        <div class="nav-wrapper" id="nav-wrapper">
+          <ul>
+            <li title="[ GET IN TOUCH ]"><a class="page-scroll" href="#contact-section"><span class="fa fa-envelope"></span></a></li>
+            <li title="[ PROJECTS ]"><a class="page-scroll" href="#project-section"><span class="fa fa-briefcase"></span></a></li>
+            <li title="[ ABOUT ME ]"><a class="page-scroll" href="#about-section"><span class="fa fa-rocket"></span></a></li>
+            <li title="[ SKILLS & EXPERIENCE]"><a class="page-scroll" href="#skills"><span class="fa fa-pencil"></span></a></li>
+            <li title="[ HOME ]"><a class="page-scroll" href="#home" ><span class="fa fa-home"></span></a></li>
+          </ul>
         </div>
-        <div id="cn-overlay" class="cn-overlay"></div>
+      </div>
+      <div id="cn-overlay" class="cn-overlay"></div>
+      <!-- End: Nav -->
+    </header>
+    <!-- End: Header -->
 
-        <section id="home-section">
-            <img alt="Victor Luna logo" onerror="this.onerror=null; this.src='img/logo.png'" width="369" src="img/logo.svg" class="img-logo">
-            <h1>If I build it, they will come.</h1>
-        </section>
 
-        <section id="skills-section">
-            <h1>[ SKILLS ]</h1>
-            <p>Throughout my career I have focused on having a strong foundation in the basics rather that learning different programming languages or frameworks. Once I got a solid understanding of Object Oriented Programming, Model View Controller, workflows, coding styles and best practices by applying them in a diverse number of situations, I was able to pick up frameworks and programming languages without many issues. I have been coding for 7 years, but I am still learning to be a good programmer. I am always discovering new technologies and improving my techniques, there is always something new to learn and discover.</p>
+    <!-- Begin: Home Section -->
+    <section id="home">
+      <img onerror="this.onerror=null; this.src='img/logo.png'" width="369" src="img/logo.svg" class="img-logo" alt="Victor Luna Logo">
+      <h1>Full Stack Web Developer</h1>
+    </section>
+    <!-- End: Home Section -->
 
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="chart-wrapper"></div>
-                </div>
-                <div class="col-md-6" id="language-description">
-                    <h3>Ruby</h3>
-                    <p>Ruby is a simple to code Object Oriented Programming. I use it with Rails to design, build and maintain scalable and reliable web applications in a fast-paced collaborative awesome team setting. Some of the systems I build with Ruby on Rails are fast, reliable and easy to maintain. Learning Ruby and using Rails was easy after using PHP with Yii2 framework.</p>
-                </div>
+    <section id="skills">
+      <h1>[ SKILLS & EXPERIENCE ]</h1>
+      
+      <p>Throughout my career I have maintained the importance of having a strong foundation in the basics, before delving into various programming languages & frameworks. </p>
+
+      <p>Once I developed a solid understanding of Object Oriented Programming, Model View Controller, workflows, coding styles and learning the best practices of each, I was able to pick up frameworks and programming languages without issue. I have been coding now for 7 years, & as I continue to discover new techniques and build on others, I am committed to being a lifelong learner in programming. </p>
+      
+      <div class="row">
+        <div class="col-md-6">
+          <div class="chart-wrapper"></div>
+        </div>
+        <div class="col-md-6" id="language-description">
+          <h3>Ruby</h3>
+          <p>Ruby is a simple to code Object Oriented Programming language. I use it with Rails framework to design, build and maintain scalable and reliable web applications in a fast-paced collaborative team setting. Many of the systems I build with Ruby on Rails are fast and simple to maintain. Learning Ruby and using Rails came with ease after using PHP with Yii2 framework.</p>
+        </div>
+      </div>
+
+
+      <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-img"></div>
+
+            <div class="timeline-content js--fadeInLeft">
+              <div class="date">December 2016 - Present</div>
+
+              <h3>Senior Web Developer<br><span class="work-place">- Websolutions.ca</span></h3>
+              
+              <ul>
+                <li>Improved system performance by 35% and increased application development cycle by 40% for in-house built systems using Ruby on Rails, PHP, HTML5, CSS3, and Javascript</li>
+                <li>Provided leadership, supervision, guidance, and training to staff in all aspects of the development process, resulting in 15% increase in efficiency while also coordinating development work across multiple offices</li>
+                <li>Full stack development of over 50 multilingual applications including intranets, web apps, management systems and websites using high quality, reliable, maintainable code, following best practices and keeping an up to date documentation</li>
+              </ul>
             </div>
+          </div> 
+
+          <div class="timeline-item">
+            <div class="timeline-img"></div>
+            <div class="timeline-content timeline-card js--fadeInRight">
+                      <div class="date">May 2015 - August 2015</div>
+
+              <h3>Web Developer<br><span class="work-place">- Longevity Graphics</span></h3>
+              <ul>
+                <li>Designed, developed and maintained over 15 responsive websites and applications using WordPress, PHP, HTML, CSS, and Javascript</li>
+                <li>Communicated with multiple clients on a daily basis to gather user requirements and manage project scope</li>
+                <li>Responded to inquiries from over 30 clients and delivered required changes within 24 hours</li>
+              </ul>
+            </div>
+
+          </div>   
+
+          <div class="timeline-item">
+
+            <div class="timeline-img"></div>
+
+            <div class="timeline-content js--fadeInLeft">
+              <div class="date">September 2013 - August 2014</div>
+
+              <h3>Beta Software Issue Coordinator<br><span class="work-place">- BlackBerry</span></h3>
+              
+              <ul>
+                <li>Identified bugs and created follow-up reports for developers in various applications such as BBM, Facebook, LinkedIn, Twitter, Foursquare, BlackBerry World, and BlackBerry Maps</li>
+                <li>Improved effectiveness and efficiency by 10% by creating scripts for in-house programs that generate bug reports</li>
+                <li>Tested multiple applications through analysis of logs to identify bugs that could interfere with the launch of new applications such as crashes, performance issues, battery drain, and design elements</li>
+
+              </ul>
+            </div>
+          </div>   
+      </div>
+
+
         </section>
 
         <section id="about-section">
             <h1>[ WHO THIS? ]</h1>
-            <div class="grid">
-                <div class="col-1of1">
-                    <p>My name is Victor Luna and I am a full-stack developer currently based in Bathurst, NB. I have a B.Sc. in Interactive Arts &amp; Technology (SIAT). "What is that?" you may ask.</p>
+            <div class="">
+                <div class="">
+                    <p>My name is Victor Luna and I am a full stack developer currently based in Toronto, ON. I have a B.Sc. in Interactive Arts &amp; Technology (SIAT). "What is that?" you may ask.</p>
 
                     <div class="siat-dictionary">
                         <h3>SIAT</h3>
@@ -119,7 +209,7 @@
                         <p>abbreviation of <em>School of Interactive Arts &amp; Technology</em></p>
                     </div>
 
-                    <p>For the past several years I have been working in building reliable, scalable and interesting web applications. Some of the applications I have built include intranets, content management systems, costumer relationship management systems, motor management systems, among others. These application were coded using current web technologies such as PHP, Ruby on Rails, Javascript, CSS, HTML, MySQL and APIs. I have a passion for technology and what I do with it. I try to solve today’s complex problems and bridge the gap between technlogy and what it can do for people.</p>
+                    <p>For the past several years I have been working in building reliable, scalable and interesting web applications. Some of the applications I have built include intranets, content management systems, costumer relationship management systems, motor management systems, among others. These application were coded using current web technologies such as PHP, Ruby on Rails, Javascript, CSS, HTML, MySQL and APIs. I have a passion for technology and what I do with it. I try to solve today’s complex problems and bridge the gap between technology and what it can do for people.</p>
                 </div>
             </div>
         </section>
@@ -135,7 +225,7 @@
                             <br>
                             <span>Technologies:<br></span>
                             <span>HTML, CSS, JS, AngularJs and API's</span>
-                            <a href="http://vluna.github.io/CheeasonApp/app/#/" target="_blank">Demo</a>
+                            <a href="https://vluna.github.io/CheeasonApp/app/#/" target="_blank">Demo</a>
                             <a href="https://github.com/vluna/CheeasonApp" target="_blank">Github</a>
                         </figcaption>
                     </figure>
@@ -148,7 +238,7 @@
                             <br>
                             <span>Technologies:<br></span>
                             <span>JS, CSS, HTML and PHP</span>
-                            <a href="http://vluna.github.io/aide/" target="_blank">Demo</a>
+                            <a href="https://vluna.github.io/aide/" target="_blank">Demo</a>
                             <a href="https://github.com/vluna/aide/" target="_blank">Github</a>
                         </figcaption>
                     </figure>
@@ -161,7 +251,7 @@
                             <br>
                             <span>Technologies:<br></span>
                             <span>JS and HTML</span>
-                            <a href="http://vluna.github.io/MusicVisualizer/" target="_blank">Demo</a>
+                            <a href="https://vluna.github.io/MusicVisualizer/" target="_blank">Demo</a>
                             <a href="https://github.com/vluna/MusicVisualizer" target="_blank">Github</a>
                         </figcaption>
                     </figure>
@@ -174,7 +264,7 @@
                             <br>
                             <span>Technologies:<br></span>
                             <span>JS, CSS and HTML</span>
-                            <a href="http://vluna.github.io/FaceRecognition/" target="_blank">Demo</a>
+                            <a href="https://vluna.github.io/FaceRecognition/" target="_blank">Demo</a>
                             <a href="https://github.com/vluna/FaceRecognition" target="_blank">Github</a>
                         </figcaption>
                     </figure>
@@ -187,7 +277,7 @@
                             <br>
                             <span>Technologies:<br></span>
                             <span>JS, CSS and HTML</span>
-                            <a href="http://vluna.github.io/StarCraftAnalysisVis/" target="_blank">Demo</a>
+                            <a href="https://vluna.github.io/StarCraftAnalysisVis/" target="_blank">Demo</a>
                             <a href="https://github.com/vluna/StarCraftAnalysisVis" target="_blank">Github</a>
                         </figcaption>
                     </figure>
@@ -200,7 +290,7 @@
                             <br>
                             <span>Technologies:<br></span>
                             <span>HTML, CSS, JS and AngularJs</span>
-                            <a href="http://vluna.github.io/IAT381-Assignment1-Taken3/app/#/" target="_blank">Demo</a>
+                            <a href="https://vluna.github.io/IAT381-Assignment1-Taken3/app/#/" target="_blank">Demo</a>
                             <a href="https://github.com/vluna/IAT381-Assignment1-Taken3" target="_blank">Github</a>
                         </figcaption>
                     </figure>
@@ -507,113 +597,37 @@
             </div>
         </section>
 
-        <!-- Contact Form modal -->
-        <div class="modal fade" id="contact-modal" role="dialog">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h3 class="modal-title">[ MESSAGE SENT ]</h3>
-                    </div>
-
-                    <div class="modal-body">
-                        <h4>Thank you for contacting me. I will reply to you as soon as possible.</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <section id="contact-section">
-            <h1>[ GET IN TOUCH ]</h1>
-            <div class="grid">
-                <div class="col-1of1">
-                    <div class="social-medias-decals">
-                        <a href="https://github.com/vluna" target="_blank"><img class="social-media" src="img/github_decal.png" alt="Github decal"></a>
-                        <a href="https://stackoverflow.com/users/4708773/victor-luna" target="_blank"><img class="social-media" src="img/stackoverflow_decal.png" alt="Stackoverflow decal"></a>
-                        <a href="https://www.linkedin.com/in/vlunaram/" target="_blank"><img class="social-media" src="img/linkedin_decal.png" alt="Linkedin decal"></a>
-                    </div>
+          <h1>[ GET IN TOUCH ]</h1>
+          <div class="">
+            <div class="">
+              <div class="">
+                <div class="social-medias-decals">
+                  <a href="https://github.com/vluna" target="_blank"><img class="social-media" src="img/github_decal.png" alt="Github decal"></a>
+                  <a href="https://stackoverflow.com/users/4708773/victor-luna" target="_blank"><img class="social-media" src="img/stackoverflow_decal.png" alt="Stackoverflow decal"></a>
+                  <a href="https://www.linkedin.com/in/vlunaram/" target="_blank"><img class="social-media" src="img/linkedin_decal.png" alt="Linkedin decal"></a>
                 </div>
+              </div>
             </div>
+          </div>
         </section>
 
         <footer>
             <p>© 2020. Coded and designed with <i class="fa fa-heart"></i> by Victor Luna</p>
         </footer>
-        <script type="text/javascript">
-            let _css = ["https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css", "css/grid.min.css", "css/main.min.css", "https://fonts.googleapis.com/css?family=Lato:400,300,700,900", "https://fonts.googleapis.com/css?family=Rubik:300,400,500,700", "https://fonts.googleapis.com/css?family=Muli:300,400,700"];
 
-            _css.forEach(function(element) {
-                var giftofspeed = document.createElement('link');
-                giftofspeed.rel = 'stylesheet';
-                giftofspeed.href = element;
-                giftofspeed.type = 'text/css';
-                var godefer = document.getElementsByTagName('link')[0];
-                godefer.parentNode.insertBefore(giftofspeed, godefer);
-            });
-        </script>
 
-        <script async src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-        <script async type="text/javascript" src="js/jquery.viewport.min.js"></script>
+        <script async src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script async src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
+        <script async type="text/javascript" src="./js/jquery.viewport.min.js"></script>
         <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <script async type="text/javascript" src="js/particles.min.js"></script>
-        <script async type="text/javascript" src="js/script.min.js"></script>
+        <script async type="text/javascript" src="./js/particles.min.js"></script>
+        <script async type="text/javascript" src="./js/script.min.js"></script>
         <script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
-        <script async type="text/javascript" src="js/pie-chart.js"></script>
+        <script async type="text/javascript" src="./js/pie-chart.js"></script>
         <script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-        <script async type="text/javascript" src="js/polyfills.min.js"></script>
+        <script async type="text/javascript" src="./js/polyfills.min.js"></script>
 
-        <script type="application/ld+json">
-            {
-                "@context": "http://schema.org",
-                "@type": "BreadcrumbList",
-                "itemListElement":
-                [{
-                    "@type": "ListItem",
-                    "position": 1,
-                    "item":
-                    {
-                        "@id": "#home-section",
-                        "name": "Home"
-                    }
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 2,
-                    "item":
-                    {
-                        "@id": "#skills-section",
-                        "name": "Skills"
-                    }
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 3,
-                    "item":
-                    {
-                        "@id": "#about-section",
-                        "name": "About"
-                    }
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 4,
-                    "item":
-                    {
-                        "@id": "#project-section",
-                        "name": "Projects"
-                    }
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 5,
-                    "item":
-                    {
-                        "@id": "#contact-section",
-                        "name": "Contact"
-                    }
-                }]
-            }
-        </script>
     </body>
 </html>
