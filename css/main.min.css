@@ -12,6 +12,7 @@ img {
 #about-section h1,
 section#home h1,
 section#skills h1,
+section#timeline h1,
 .chart-wrapper,
 .nav-button,
 .nav-wrapper li a {
@@ -28,7 +29,6 @@ body {
 img {
     height: auto
 }
-
 
 
 /*
@@ -326,6 +326,7 @@ nav {
 #contact-section h1,
 #project-section h1,
 section#skills h1,
+section#timeline h1,
 .modal-body h4,
 .modal-body p,
 .modal-body ul li {
@@ -403,7 +404,7 @@ canvas {
 section#skills {
     width: 100%;
     height: auto;
-    padding: 25px 50px
+    padding: 25px 50px;
 }
 
 section#skills h1 {
@@ -467,6 +468,27 @@ polyline {
     text-align: left;
     padding: 0 10px;
     margin: 0
+}
+
+/*
+ * =================================================================
+ * ======================== T I M E L I N E ========================
+ * =================================================================
+ */
+section#timeline {
+    width: 100%;
+    height: auto;
+    padding: 25px 50px;
+}
+
+section#timeline h1 {
+    color: #3f51b5;
+    font-weight: 500;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 0 0 15px;
+    border-left: none
 }
 
 #about-section {
@@ -738,6 +760,50 @@ footer p {
     bottom: 20px;
     left: 0;
     margin: 0 10%
+}
+
+.timeline-school {
+    width: 100%;
+    margin-top: 15px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.timeline-school .school-info {
+    margin-bottom: 15px;
+    text-align: center;
+    display: grid;
+}
+
+
+.timeline-school .school-degree {
+    padding: 0px 40px;
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid white;
+    position: relative;
+    transition: all 200ms ease-in;
+}
+
+.timeline-school .school-degree h4 {
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.timeline-school .school-degree:before {
+    content: "";
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid white;
+    position: absolute;
+    top: -15px;
+    left: 42%;
+    transition: all 200ms ease-in;
 }
 
 #contact-section {
@@ -1227,5 +1293,18 @@ a:focus {
         left: -15px;
         border-width: 10px 15px 10px 0;
         border-color: transparent #f5f5f5 transparent transparent;
+    }
+
+    .timeline-school {
+        list-style-type: none;
+        display: block!important;
+    }
+
+    .timeline-school li {
+        margin-top: 30px;
+    }
+
+    .timeline-school .school-degree:before {
+       display: none;
     }
 }
